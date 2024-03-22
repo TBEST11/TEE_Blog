@@ -15,10 +15,10 @@
                 </div>
                 <!-- Left and right controls -->
                 <a class="carousel-control-prev" href="#slider_main" data-slide="prev">
-                <i class="far fa-angle-left" aria-hidden="true"></i>
+                <i class="fa fa-fw fa-angle-left" aria-hidden="true"></i>
                 </a>
                 <a class="carousel-control-next" href="#slider_main" data-slide="next">
-                <i class="far fa-angle-right" aria-hidden="true"></i>
+                <i class="fa fa-fw fa-angle-right" aria-hidden="true"></i>
                 </a>
              </div>
           </div>

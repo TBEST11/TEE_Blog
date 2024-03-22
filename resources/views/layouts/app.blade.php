@@ -11,20 +11,21 @@
     <link rel="icon" href="{{asset('uploads/tee_icon.jpg')}}" type="image/gif" />
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    {{-- <link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet"> --}}
 
     <!-- Scripts -->
    
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
      <!-- style css -->
-     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
      <!-- Responsive-->
-     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
      <!-- fevicon -->
      <!-- Scrollbar Custom CSS -->
      <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
-     <link rel="stylesheet" href="{{asset('css/font-awesome-all.css')}}">
+    
+    
     
 
      @vite([ 'resources/js/app.js'])
@@ -69,9 +70,7 @@
                                  <li>
                                     <a href="{{route('contact.create')}}">Contact us</a>
                                  </li>
-                                 <li>
-                                    <a href="https://www.google.com"><img src="{{asset('uploads/search_icon.png')}}" alt="#" /></a>
-                                 </li>
+                                
                                  
                             
         
@@ -109,6 +108,9 @@
                                         </div>
                                     </li>
                                 @endguest
+                                <li>
+                                    <a href="https://www.google.com"><img src="{{asset('uploads/search_icon.png')}}" alt="#" /></a>
+                                 </li>
                             </ul>
                         </div>
                     </nav>
@@ -123,15 +125,14 @@
         </main>
         @include('layouts.footer')
     </div>
-    <script src="{{asset('js/jquery.min.js')}}"></script>
-      <script src="{{asset('js/popper.min.js')}}"></script>
-      <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-      <script src="{{asset('js/jquery-3.0.0.min.js')}}"></script>
-      <script src="{{asset('js/plugin.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
+      <script src="{{asset('assets/js/popper.min.js')}}"></script>
+      <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+      <script src="{{asset('assets/js/jquery-3.0.0.min.js')}}"></script>
+      <script src="{{asset('assets/js/plugin.js')}}"></script>
       <!-- Scrollbar Js Files -->
-      <script src="{{asset('js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-      <script src="{{asset('js/ascustom.js')}}"></script>
-      <script src="{{asset('js/fontawesome.js')}}"></script>
-</body>
+      <script src="{{asset('assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+      <script src="{{asset('assets/js/custom.js')}}"></script>
+      
 </html>
 

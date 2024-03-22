@@ -10,23 +10,23 @@
               <li><span><img src="{{asset('uploads/mail_icon.png')}}" alt="#" /></span><span class="text_cont">okpaniorjimba@gmail.com<br>support@gmail.com</span></li>
            </ul>
            <ul class="social_icon">
-              <li><a href="#"><i class="far fa-facebook"></i></a></li>
-              <li><a href="#"><i class="far fa-twitter"></i></a></li>
-              <li><a href="#"><i class="far fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="far fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-fw fa-google-plus"></i></a></li>
            </ul>
         </div>
         <div class="col-lg-2 col-md-6">
            <div class="footer_links">
               <h3>Quick link</h3>
               <ul>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Home</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Features</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Evens</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Markrting</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Blog</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Testimonial</a></li>
-                 <li><a href="#"><i class="far fa-angle-right" aria-hidden="true"></i> Contact</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Home</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Features</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Evens</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Markrting</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Blog</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Testimonial</a></li>
+                 <li><a href="#"><i class="fa fa-fw fa-angle-right" aria-hidden="true"></i> Contact</a></li>
               </ul>
            </div>
         </div>

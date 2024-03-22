@@ -6,22 +6,22 @@
 
         <title>Home</title>
         
-        <link rel="stylesheet" href="{{asset('css/font-awesome-all.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/font-awesome-all.css')}}">
         <link rel="icon" href="{{asset('uploads/tee_icon.jpg')}}" type="image/gif" />
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        {{-- <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" /> --}}
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
         <!-- style css -->
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
         <!-- Responsive-->
-        <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
         <!-- fevicon -->
         <!-- Scrollbar Custom CSS -->
-        <link rel="stylesheet" href="{{asset('css/jquery.mCustomScrollbar.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/jquery.mCustomScrollbar.min.css')}}">
     </head>
     <body class="antialiased">
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
@@ -113,14 +113,14 @@
                       </div>
                    </div>
                    @include('layouts.footer')
-        <script src="{{asset('js/jquery.min.js')}}"></script>
-        <script src="{{asset('js/popper.min.js')}}"></script>
-        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-         <script src="{{asset('js/jquery-3.0.0.min.js')}}"></script>
-        <script src="{{asset('js/plugin.js')}}"></script>
+        <script src="{{asset('assets/js/jquery.min.js')}}"></script>
+        <script src="{{asset('assets/js/popper.min.js')}}"></script>
+        <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+         <script src="{{asset('assets/js/jquery-3.0.0.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugin.js')}}"></script>
         <!-- Scrollbar Js Files -->
-        <script src="{{asset('js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-        <script src="{{asset('js/ascustom.js')}}"></script>
+        <script src="{{asset('assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+        <script src="{{asset('assets/js/custom.js')}}"></script>
     
     </body>
 </html>
